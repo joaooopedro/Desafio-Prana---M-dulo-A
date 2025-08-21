@@ -12,7 +12,7 @@ O processo de tratamento de dados foi a etapa mais crítica para garantir a conf
 
 * **Classificação ENTRADA/SAÍDA:** Para os registros com a classificação ENTRADA/SAÍDA faltante, criei uma regra em que todas as transações com DRE de "Receita" ou "Receitas nao operacionais" foram classificadas como ENTRADA e as demais como SAÍDA.
 
-    **Evidência Visual:** <img src="./dados consertados.jpeg" alt="Dados" />
+    **Print:** <img src="./dados consertados.jpeg" alt="Dados" />
 
 ### 2. Modelo de Dados
 
@@ -55,12 +55,12 @@ O painel visual foi construído em uma única página para fornecer uma visão r
 
 4.  **Filtro Interativo:** Implementei uma **Segmentação de Dados** com a coluna `Data_Final`, dando ao usuário a flexibilidade de analisar qualquer período desejado.
 
-    **Evidência Visual:** <img src="./modelo visual.jpeg" alt="Modelo Visual" />
+    **Print:** <img src="./modelo visual.jpeg" alt="Modelo Visual" />
 
 ### 5. Configuração da Atualização Automática
 
 Como a fonte de dados utilizada foi um arquivo Excel local, instalei e configurei o On-premises Data Gateway (personal mode) no meu computador. No Power BI Service, o conjunto de dados foi mapeado para usar este gateway, e as credenciais do Windows foram fornecidas. Por fim, a atualização agendada foi ativada para ocorrer diariamente.
 
-**Evidência Visual (agendamento):** <img src="./agendamento de atualizacao.jpeg" />
+**Print(agendamento):** <img src="./agendamento de atualizacao.jpeg" />
 
-**Evidência Visual (conclusão):** <img src="./atualizacao concluida.jpeg" />
+**Print(conclusão):** <img src="./atualizacao concluida.jpeg" />
